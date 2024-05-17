@@ -130,7 +130,7 @@ void JNICALL onVmInit(jvmtiEnv *jvmti_env, JNIEnv *jni_env, jthread thread) {
     return;
   }
 }
-
+[ir]
 JNIEXPORT jint JNICALL Agent_OnLoad(JavaVM *jvm, char *options, void *reserved) {
   if (jvmti != NULL) {
     return JNI_OK;
