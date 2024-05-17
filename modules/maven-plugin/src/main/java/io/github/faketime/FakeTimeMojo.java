@@ -33,7 +33,7 @@ import org.codehaus.plexus.components.io.fileselectors.IncludeExcludeFileSelecto
 @Mojo(name="prepare", defaultPhase = VALIDATE)
 public class FakeTimeMojo extends AbstractMojo {
 
-  private static final String GROUP_ID = "io.github.faketime-java";
+  private static final String GROUP_ID = "com.github.bgerstle.faketime";
   private static final String ARTIFACT_ID = "faketime-maven-plugin";
   private static final String AGENT_ARTIFACT_ID = "faketime-agent";
 
