@@ -7,12 +7,12 @@
   <name>FakeTime Native Agent</name>
   <artifactId>faketime-agent</artifactId>
   <packaging>jar</packaging>
-  <version>${revision}</version>
+  <version>0.8.1</version>
 
   <parent>
     <groupId>com.github.bgerstle.faketime</groupId>
     <artifactId>faketime-parent</artifactId>
-    <version>${revision}</version>
+    <version>0.8.1</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
