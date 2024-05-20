@@ -7,12 +7,12 @@
   <name>FakeTime JUnit API</name>
   <artifactId>faketime-junit</artifactId>
   <packaging>jar</packaging>
-  <version>0.8.1</version>
+  <version>0.8.1-SNAPSHOT</version>
 
   <parent>
     <groupId>com.github.bgerstle.faketime</groupId>
     <artifactId>faketime-parent</artifactId>
-    <version>0.8.1</version>
+    <version>0.8.1-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
@@ -20,7 +20,7 @@
     <dependency>
       <groupId>com.github.bgerstle.faketime</groupId>
       <artifactId>faketime-api</artifactId>
-      <version>0.8.1</version>
+      <version>0.8.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
 
